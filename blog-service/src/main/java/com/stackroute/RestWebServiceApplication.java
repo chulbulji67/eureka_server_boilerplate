@@ -8,6 +8,7 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 /*
 * Enable client annotation to indicate the application as eureka client
  */
+@EnableDiscoveryClient
 public class RestWebServiceApplication {
 
     public static void main(String[] args) {
